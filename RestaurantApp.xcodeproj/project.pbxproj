@@ -19,6 +19,7 @@
 		957A458022352B7C0011B3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A457E22352B7C0011B3DD /* Main.storyboard */; };
 		957A458222352B7F0011B3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957A458122352B7F0011B3DD /* Assets.xcassets */; };
 		957A458522352B7F0011B3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A458322352B7F0011B3DD /* LaunchScreen.storyboard */; };
+		95C839DB2236C176008BE495 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C839DA2236C176008BE495 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		957A458122352B7F0011B3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		957A458422352B7F0011B3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957A458622352B7F0011B3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C839DA2236C176008BE495 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		957A457922352B7C0011B3DD /* RestaurantApp */ = {
 			isa = PBXGroup;
 			children = (
+				95C839D92236C156008BE495 /* Services */,
 				950F12752236837A006396F1 /* Screen */,
 				957A457A22352B7C0011B3DD /* AppDelegate.swift */,
 				957A457C22352B7C0011B3DD /* ViewController.swift */,
@@ -139,6 +142,14 @@
 				957A458622352B7F0011B3DD /* Info.plist */,
 			);
 			path = RestaurantApp;
+			sourceTree = "<group>";
+		};
+		95C839D92236C156008BE495 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				95C839DA2236C176008BE495 /* LocationService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 				950F1284223689BD006396F1 /* RestaurantTableViewController.swift in Sources */,
 				951D178422368F7800AD5B0E /* LocationViewController.swift in Sources */,
 				957A457D22352B7C0011B3DD /* ViewController.swift in Sources */,
+				95C839DB2236C176008BE495 /* LocationService.swift in Sources */,
 				957A457B22352B7C0011B3DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
