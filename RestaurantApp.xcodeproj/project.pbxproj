@@ -12,6 +12,7 @@
 		950F1281223688B6006396F1 /* DetailsFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F1280223688B6006396F1 /* DetailsFoodViewController.swift */; };
 		950F1284223689BD006396F1 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F1283223689BD006396F1 /* RestaurantTableViewController.swift */; };
 		950F128722368A43006396F1 /* restaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950F128622368A43006396F1 /* restaurantTableViewCell.swift */; };
+		951282D82237DA9600A79854 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 951282D72237DA9600A79854 /* podfile */; };
 		951D178222368E8700AD5B0E /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D178122368E8700AD5B0E /* LocationView.swift */; };
 		951D178422368F7800AD5B0E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D178322368F7800AD5B0E /* LocationViewController.swift */; };
 		957A457B22352B7C0011B3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A457A22352B7C0011B3DD /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 		950F1280223688B6006396F1 /* DetailsFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodViewController.swift; sourceTree = "<group>"; };
 		950F1283223689BD006396F1 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		950F128622368A43006396F1 /* restaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantTableViewCell.swift; sourceTree = "<group>"; };
+		951282D72237DA9600A79854 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
 		951D178122368E8700AD5B0E /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		951D178322368F7800AD5B0E /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		957A457722352B7C0011B3DD /* RestaurantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 		957A456E22352B7B0011B3DD = {
 			isa = PBXGroup;
 			children = (
+				951282D72237DA9600A79854 /* podfile */,
 				957A457922352B7C0011B3DD /* RestaurantApp */,
 				957A457822352B7C0011B3DD /* Products */,
 			);
@@ -212,6 +215,7 @@
 			files = (
 				957A458522352B7F0011B3DD /* LaunchScreen.storyboard in Resources */,
 				957A458222352B7F0011B3DD /* Assets.xcassets in Resources */,
+				951282D82237DA9600A79854 /* podfile in Resources */,
 				957A458022352B7C0011B3DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
