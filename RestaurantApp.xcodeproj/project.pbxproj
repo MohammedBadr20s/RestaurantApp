@@ -21,6 +21,7 @@
 		957A458222352B7F0011B3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957A458122352B7F0011B3DD /* Assets.xcassets */; };
 		957A458522352B7F0011B3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A458322352B7F0011B3DD /* LaunchScreen.storyboard */; };
 		959AE92F22384A2B00202E43 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AE92E22384A2B00202E43 /* NetworkService.swift */; };
+		959AE931223860F900202E43 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AE930223860F900202E43 /* Models.swift */; };
 		95C839DB2236C176008BE495 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C839DA2236C176008BE495 /* LocationService.swift */; };
 		9FFDF382C179F27941028AD3 /* Pods_RestaurantApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA1EBEC9197F256962059B2 /* Pods_RestaurantApp.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		957A458422352B7F0011B3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957A458622352B7F0011B3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		959AE92E22384A2B00202E43 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		959AE930223860F900202E43 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		95C839DA2236C176008BE495 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 			children = (
 				950F1285223689E6006396F1 /* Views */,
 				950F1283223689BD006396F1 /* RestaurantTableViewController.swift */,
+				959AE930223860F900202E43 /* Models.swift */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				959AE92F22384A2B00202E43 /* NetworkService.swift in Sources */,
 				950F127B2236858F006396F1 /* BaseView.swift in Sources */,
 				951D178222368E8700AD5B0E /* LocationView.swift in Sources */,
+				959AE931223860F900202E43 /* Models.swift in Sources */,
 				950F128722368A43006396F1 /* restaurantTableViewCell.swift in Sources */,
 				950F127F223686C2006396F1 /* DetailsFoodView.swift in Sources */,
 				950F1281223688B6006396F1 /* DetailsFoodViewController.swift in Sources */,

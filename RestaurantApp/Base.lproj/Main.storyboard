@@ -121,7 +121,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="CAV-rV-Ml2">
                                                     <rect key="frame" x="0.0" y="0.0" width="343" height="166"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="bxR-Mg-wcr">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="100" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="bxR-Mg-wcr">
                                                             <rect key="frame" x="0.0" y="0.0" width="343" height="126"/>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="TPl-ig-byE">
@@ -142,7 +142,7 @@
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KIN-Rc-NBW">
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="marker" translatesAutoresizingMaskIntoConstraints="NO" id="KIN-Rc-NBW">
                                                                             <rect key="frame" x="42.5" y="0.0" width="24" height="24"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="24" id="nW5-OG-f5I"/>
@@ -374,7 +374,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Ivj-wb-AOF">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bcg-un-ZtF" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="RestaurantNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="bcg-un-ZtF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="ZdV-pN-h4f">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -400,5 +400,7 @@
         <image name="IC Star 24px" width="20" height="19"/>
         <image name="IC Store 24px" width="18" height="15"/>
         <image name="location-permission" width="1073" height="968"/>
+        <image name="marker" width="24" height="24"/>
+        <image name="placeholder" width="343" height="153"/>
     </resources>
 </document>
