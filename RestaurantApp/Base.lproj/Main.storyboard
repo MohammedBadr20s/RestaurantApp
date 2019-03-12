@@ -102,7 +102,7 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="locationView" destination="8bC-Xf-vdC" id="B51-0Q-fg4"/>
+                        <outlet property="locationView" destination="8bC-Xf-vdC" id="d6B-Kr-dJn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
