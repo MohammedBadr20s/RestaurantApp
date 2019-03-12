@@ -57,11 +57,6 @@
                                         <state key="normal" title="Allow">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer cornerRadius">
-                                                <integer key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="allowAction:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="yZF-dR-X9e"/>
                                         </connections>
@@ -72,11 +67,6 @@
                                         <state key="normal" title="No, Another Time">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer cornerRadius">
-                                                <integer key="value" value="25"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="denyAction:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="9hv-3U-z6F"/>
                                         </connections>
