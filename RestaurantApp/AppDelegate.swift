@@ -20,7 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let jsonDecoder = JSONDecoder()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        service.request(.details(id: "WavvLdfdP6g8aZTtbBQHTw")) { (result) in
+            switch result {
+            case .success(let response):
+                let details = try? self.jsonDecoder.decode(Details.self, from: response.data)
+                print("Details: \n\n \(details)")
+            case .failure(let error):
+                print("Failed to get Details \(error)")
+            }
+        }
         jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
         
         locationService.didChangeStatus = { [weak self] success in
