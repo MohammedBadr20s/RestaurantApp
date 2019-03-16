@@ -22,6 +22,7 @@
 		957A458522352B7F0011B3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957A458322352B7F0011B3DD /* LaunchScreen.storyboard */; };
 		959AE92F22384A2B00202E43 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AE92E22384A2B00202E43 /* NetworkService.swift */; };
 		959AE931223860F900202E43 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AE930223860F900202E43 /* Models.swift */; };
+		95A0122D223D3CF300808BF0 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0122C223D3CF300808BF0 /* DetailsCollectionViewCell.swift */; };
 		95C839DB2236C176008BE495 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C839DA2236C176008BE495 /* LocationService.swift */; };
 		9FFDF382C179F27941028AD3 /* Pods_RestaurantApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA1EBEC9197F256962059B2 /* Pods_RestaurantApp.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		957A458622352B7F0011B3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		959AE92E22384A2B00202E43 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		959AE930223860F900202E43 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		95A0122C223D3CF300808BF0 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		95C839DA2236C176008BE495 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				950F127E223686C2006396F1 /* DetailsFoodView.swift */,
+				95A0122C223D3CF300808BF0 /* DetailsCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				950F1281223688B6006396F1 /* DetailsFoodViewController.swift in Sources */,
 				950F1284223689BD006396F1 /* RestaurantTableViewController.swift in Sources */,
 				951D178422368F7800AD5B0E /* LocationViewController.swift in Sources */,
+				95A0122D223D3CF300808BF0 /* DetailsCollectionViewCell.swift in Sources */,
 				957A457D22352B7C0011B3DD /* ViewController.swift in Sources */,
 				95C839DB2236C176008BE495 /* LocationService.swift in Sources */,
 				957A457B22352B7C0011B3DD /* AppDelegate.swift in Sources */,
